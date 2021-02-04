@@ -1,6 +1,5 @@
 # tcp_cc
-Repository contains code with proposed rule changes for the tcp congestion control
-
+Repository contains code with proposed rule changes for the tcp bbr congestion control algorithm.
 
 Attached are tcp_bbr.cpp and tcp_rate.cpp files with rule change proposals for asymptotic pacing and restoring cwnd to max_packets_delivered as described in the blog article.
 
