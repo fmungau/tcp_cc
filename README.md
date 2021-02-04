@@ -7,4 +7,4 @@ https://www.trueux.net/single-post/resolving-the-bandwidth-delay-uncertainty-thr
 
 The code is purpose built for a multi-core modeller and needs to be modified for testing in other modellers such as NS-3. However, the variables in the code are closely aligned with the BBR v1 Linux implementation with comments referring to the BBR specifications  
 
-The goal of the rule changes is to improve BBR v1 fairness and minimize queue pressure for large RTT ratios e.g., 10X with minimum changes to the BBR v1 source. It is hoped that this approach (minimal changes to the current set of rules) conserves all of BBRs current advantages while enhancing performance.
+The goal of the rule changes is to improve BBR v1 fairness and minimize queue pressure for large RTT ratios e.g., 10X with minimum changes to the BBR v1 source. It is hoped that this approach (minimal changes to the existing set of rules) conserves all of BBRs current advantages while enhancing performance.
